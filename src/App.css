@@ -1,0 +1,17 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.all-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-test {
+  color: var(--white);
+  background: var(--color-primary);
+}

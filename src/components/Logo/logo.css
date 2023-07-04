@@ -1,0 +1,9 @@
+.div-logo {
+  display: flex;
+  gap: 5px;
+}
+.color1 {
+  font-weight: 900;
+  font-size: 23px;
+  color: var(--color-primary);
+}
