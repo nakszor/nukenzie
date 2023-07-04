@@ -1,0 +1,9 @@
+.div-logo {
+  background: var(--grey4);
+  color: var(--white);
+  display: flex;
+  gap: 5px;
+}
+.color1 {
+  color: var(--color-primary);
+}
