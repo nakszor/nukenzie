@@ -1,0 +1,38 @@
+.card {
+  margin-top: 15px;
+  background-color: var(--grey1);
+  height: 70px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+  transition: ease-in 2s;
+}
+.card-div1 {
+  margin-left: 5px;
+}
+.cursor {
+  cursor: pointer;
+}
+.card-div2 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 5px;
+}
+.btn-trash {
+  background-color: var(--grey2);
+  height: 25px;
+  width: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 240px) {
+  .card-div2 {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
