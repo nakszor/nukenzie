@@ -1,0 +1,7 @@
+.div-logo {
+  display: flex;
+  gap: 5px;
+}
+.color1 {
+  color: var(--color-primary);
+}
